@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" hcdref="style.css">
 </head>
 <body>
     <pre class="change">
@@ -15,5 +15,15 @@ git reset --soft HEAD^ uncommit the commit in HEAD and move to staging area
 git reset HEAD^ uncommit the commit in HEAD and move to unstaging / working area
 git reset --hard HEAD^ uncommit the commit in HEAD and delete the commit completely with all the changes
     </pre>
+    <p>
+        create a .gitignore file and add the things you do not want to add in the stagging area
+Inside .gitignore we can keep secret files, hidden files, temporary files, log files
+secret.txt secret.txt will be ignored
+*.txt ignore all files with .txt extension
+!main.txt ignore all files with .txt extension without .main.txt
+test?.txt ignore all files like test1.txt test2.txt
+temp/ all the files in temp folders will be ignored
+
+    </p>
 </body>
 </html>
