@@ -8,6 +8,8 @@ __This is readme try__
 
 ~This is readme try~
 
+**_text goes here_**
+
 `this is inline`  
 `<h1>This is readme try</h1>`
 
@@ -54,8 +56,20 @@ https://elearning.hs-regensburg.de/course/view.php?id=1119#section-2
 
 ### table
 
-\Name| |Email|   
-| ----- | ------ |
+   table syntax
+   | heading1 | heading2 |
+   | ----- | ----- |
+   | data1 | data2 |
+   | data3 | data4 |
+   | data5 | data6 |
+
+
+| Name | Email|
+| ----- | -----|
+| Hira Nahar | hira.nahar08@gmail.com |
+
+
+
 
 ### image syntax
 <!-- ![profile](./image/me.jpeg) -->
